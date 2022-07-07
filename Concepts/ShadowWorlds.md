@@ -280,7 +280,7 @@ The problem printf exists to solve is that concatenating bits and pieces of stri
     
     There is also `%n` which prints nothing but has the side effect of storing the number of characters printed so far to a provided `signed int` pointer, which is bizarre in a number of ways. Wanting to know the amount of characters printed makes some sense in and of itself, but the way you specify this is really strange and not idiomatic in the slightest.
 
-    In general, the idea of `%` followed by some character is not very idiomatic to start with. At a glance you might wonder whether it's similar in function to a template literal, but when the same format specifier can result in different values without side effects that notion really no longer holds.
+    In general, the idea of `%` followed by some character is not very idiomatic to start with. At a glance you might wonder whether it's similar in function to expanding a variable name like PHP can do with `"Hello $world"`, but when the same format specifier can result in different values without side effects that notion really no longer holds.
 
   * The **length** determines how the length (`long`, `short`, etc.) of the provided value is interpreted.
 
