@@ -99,10 +99,12 @@ The semantics of `<?php ?>` are confusing and not getting any easier to grasp, s
 Not only does it make for a crappy string literal, it's not even sufficient for its main purpose, which is manipulation of web documents. Since it lacks any way to manipulate the value inside, when you need to generate content dynamically you just can't use it. As a result, you'll get things like this:
 
 ```php
-  $items = [
-    'foo' => 'bar',
-    'qux' => 'quux'
-  ];
+  <?php
+    $items = [
+      'foo' => 'bar',
+      'qux' => 'quux'
+    ];
+  ?>
 
   <!-- The bad way -->
   <ul><?php
