@@ -13,25 +13,29 @@ However, one can also make the case that it applies to the semantics of a GPL to
 
 1. **Code is less idiomatic.**
 
-  DSLs embedded inside a GPL necessarily differ somewhat from the main language. This means that when you study a GPL with Shadow Worlds, you're often learning a single language for the cost of two or more. The greater the difference, the more demanding it is to learn both. A Shadow World may avoid the worst of it, but they are all guilty to some extent. 
+    DSLs embedded inside a GPL necessarily differ somewhat from the main language. This means that when you study a GPL with Shadow Worlds, you're often learning a single language for the cost of two or more. The greater the difference, the more demanding it is to learn both. A Shadow World may avoid the worst of it, but they are all guilty to some extent. 
 
-  This increased burden is why the ability to write idiomatic code is important. You'll find it easiest to solve a problem when you can express your solution in a style the programming language naturally encourages. So the more of a language's syntax and sematics are domain-independent, the less you will run into the issue of having to write code in a way you're unfamiliar with.
+    This increased burden is why the ability to write idiomatic code is important. You'll find it easiest to solve a problem when you can express your solution in a style the programming language naturally encourages. So the more of a language's syntax and sematics are domain-independent, the less you will run into the issue of having to write code in a way you're unfamiliar with.
 
 2. **The language is less expressive.**
 
-  This applies to both the GPL itself and the Shadow Worlds it contains.
+    This applies to both the GPL itself and the Shadow Worlds it contains.
 
-  When coding in a Shadow World, the lack of expressiveness is the direct result of its limited domain. You can't express certain ideas because the Shadow World simply does not have the means to express them. As a result you'll often need to work with a mix of code with inconsistent style or syntax, because the way you express things in the Shadow World does not match how you express them outside of it.
+    When coding in a Shadow World, the lack of expressiveness is the direct result of its limited domain. You can't express certain ideas because the Shadow World simply does not have the means to express them. As a result you'll often need to work with a mix of code with inconsistent style or syntax, because the way you express things in the Shadow World does not match how you express them outside of it.
 
-  When coding in the GPL you may run into this problem as well, though. In many cases, Shadow Worlds exist to cover gaps in a language's features. It may be impossible, slow, or cumbersome to express your idea in the GPL alone, having to resort to using the Shadow World to fully descibe your idea.
+    When coding in the GPL you may run into this problem as well, though. In many cases, Shadow Worlds exist to cover gaps in a language's features. It may be impossible, slow, or cumbersome to express your idea in the GPL alone, having to resort to using the Shadow World to fully descibe your idea.
 
-  Often, a language tries not to reinvent the wheel when it comes to a particular feature. But let's be clear: writing a new language is already "reinventing the wheel". You're looking for ways to streamline and improve what you didn't like about other languages. And if you fail to propagate those new ideas throughout every aspect of your language, you've failed to make the language you set out to make. Patching a feature gap by domain-specific means is often just lazy, and it's no excuse not to support the feature without the need for a Shadow World in the future.
+    Often, a language tries not to reinvent the wheel when it comes to a particular feature. But let's be clear: writing a new language is already "reinventing the wheel". You're looking for ways to streamline and improve what you didn't like about other languages. And if you fail to propagate those new ideas throughout every aspect of your language, you've failed to make the language you set out to make. Patching a feature gap by domain-specific means is often just lazy, and it's no excuse not to support the feature without the need for a Shadow World in the future.
 
-  There are of course time and cost concerns when it comes to implementing features, so it's not like there is no valid reason to include Shadow Worlds in a language at all. It's better to have poor support for a feature than no support for a feature, after all. But do not get complacent after patching a feature gap with a Shadow World.
+    There are of course time and cost concerns when it comes to implementing features, so it's not like there is no valid reason to include Shadow Worlds in a language at all. It's better to have poor support for a feature than no support for a feature, after all. But do not get complacent after patching a feature gap with a Shadow World.
 
 3. **Code is more complex.**
 
-  Aside from the more obvious issues
+    TODO
+    
+4. **Code is less robust.**
+
+    TODO
 
 
 ## Context
