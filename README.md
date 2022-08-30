@@ -23,11 +23,23 @@ The "E" in E-Flat is a reference to the language's inspirations. Its strongest i
 It bears mentioning that there is also the [E programming language][E], to which Eb is not directly related.
 
 
+## Features
+
+* [Metaclasses]
+
+
 ## File Extensions
 
 Eb source files should use the file extension `.eb`.
 
+
+## Disclaimer
+
+Any syntax shown in Eb exaples is not final at this time.
+
+
 <!-- Internal Links -->
+[Metaclasses]: Features/Metaclasses.md
 [Shadow Worlds]: Concepts/ShadowWorlds.md
 
 <!-- External Links -->
